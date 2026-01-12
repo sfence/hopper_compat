@@ -81,21 +81,61 @@ if minetest.get_modpath("technic_chests") then
 		{"bottom", "technic:iron_chest", "main"},
 		{"side", "technic:iron_chest", "main"}, 
 
+		{"top", "technic:iron_protected_chest", "main"}, 
+		{"bottom", "technic:iron_protected_chest", "main"},
+		{"side", "technic:iron_protected_chest", "main"}, 
+
+		{"top", "technic:iron_locked_chest", "main"}, 
+		{"bottom", "technic:iron_locked_chest", "main"},
+		{"side", "technic:iron_locked_chest", "main"}, 
+
 		{"top", "technic:copper_chest", "main"}, 
 		{"bottom", "technic:copper_chest", "main"},
 		{"side", "technic:copper_chest", "main"}, 
+
+		{"top", "technic:copper_protected_chest", "main"}, 
+		{"bottom", "technic:copper_protected_chest", "main"},
+		{"side", "technic:copper_protected_chest", "main"}, 
+
+		{"top", "technic:copper_locked_chest", "main"}, 
+		{"bottom", "technic:copper_locked_chest", "main"},
+		{"side", "technic:copper_locked_chest", "main"}, 
 
 		{"top", "technic:silver_chest", "main"}, 
 		{"bottom", "technic:silver_chest", "main"},
 		{"side", "technic:silver_chest", "main"}, 
 
+		{"top", "technic:silver_protected_chest", "main"}, 
+		{"bottom", "technic:silver_protected_chest", "main"},
+		{"side", "technic:silver_protected_chest", "main"}, 
+
+		{"top", "technic:silver_locked_chest", "main"}, 
+		{"bottom", "technic:silver_locked_chest", "main"},
+		{"side", "technic:silver_locked_chest", "main"}, 
+
 		{"top", "technic:gold_chest", "main"}, 
 		{"bottom", "technic:gold_chest", "main"},
 		{"side", "technic:gold_chest", "main"}, 
 
+		{"top", "technic:gold_protected_chest", "main"}, 
+		{"bottom", "technic:gold_protected_chest", "main"},
+		{"side", "technic:gold_protected_chest", "main"}, 
+
+		{"top", "technic:gold_locked_chest", "main"}, 
+		{"bottom", "technic:gold_locked_chest", "main"},
+		{"side", "technic:gold_locked_chest", "main"}, 
+
 		{"top", "technic:mithril_chest", "main"}, 
 		{"bottom", "technic:mithril_chest", "main"},
 		{"side", "technic:mithril_chest", "main"}, 
+
+		{"top", "technic:mithril_protected_chest", "main"}, 
+		{"bottom", "technic:mithril_protected_chest", "main"},
+		{"side", "technic:mithril_protected_chest", "main"}, 
+
+		{"top", "technic:mithril_locked_chest", "main"}, 
+		{"bottom", "technic:mithril_locked_chest", "main"},
+		{"side", "technic:mithril_locked_chest", "main"}, 
 	})
 end
 
@@ -115,3 +155,13 @@ if minetest.get_modpath("pipeworks") then
 		{"side", "pipeworks:autocrafter", "src"},
 	})
 end
+
+-- Add support for nanotech chest
+if minetest.get_modpath("nanotech") then
+	hopper:add_container({
+		{"top", "nanotech:carbon_chest", "main"},
+		{"side", "nanotech:carbon_chest", "main"},
+		{"bottom", "nanotech:carbon_chest", "main"},
+	})
+end
+
