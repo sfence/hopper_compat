@@ -80,6 +80,7 @@ if minetest.get_modpath("technic_chests") then
 		{"top", "technic:iron_chest", "main"}, 
 		{"bottom", "technic:iron_chest", "main"},
 		{"side", "technic:iron_chest", "main"}, 
+		{"void", "technic:iron_chest", "main"}, 
 
 		{"top", "technic:iron_protected_chest", "main"}, 
 		{"bottom", "technic:iron_protected_chest", "main"},
@@ -92,6 +93,7 @@ if minetest.get_modpath("technic_chests") then
 		{"top", "technic:copper_chest", "main"}, 
 		{"bottom", "technic:copper_chest", "main"},
 		{"side", "technic:copper_chest", "main"}, 
+		{"void", "technic:copper_chest", "main"}, 
 
 		{"top", "technic:copper_protected_chest", "main"}, 
 		{"bottom", "technic:copper_protected_chest", "main"},
@@ -104,6 +106,7 @@ if minetest.get_modpath("technic_chests") then
 		{"top", "technic:silver_chest", "main"}, 
 		{"bottom", "technic:silver_chest", "main"},
 		{"side", "technic:silver_chest", "main"}, 
+		{"void", "technic:silver_chest", "main"}, 
 
 		{"top", "technic:silver_protected_chest", "main"}, 
 		{"bottom", "technic:silver_protected_chest", "main"},
@@ -116,6 +119,7 @@ if minetest.get_modpath("technic_chests") then
 		{"top", "technic:gold_chest", "main"}, 
 		{"bottom", "technic:gold_chest", "main"},
 		{"side", "technic:gold_chest", "main"}, 
+		{"void", "technic:gold_chest", "main"}, 
 
 		{"top", "technic:gold_protected_chest", "main"}, 
 		{"bottom", "technic:gold_protected_chest", "main"},
@@ -128,6 +132,7 @@ if minetest.get_modpath("technic_chests") then
 		{"top", "technic:mithril_chest", "main"}, 
 		{"bottom", "technic:mithril_chest", "main"},
 		{"side", "technic:mithril_chest", "main"}, 
+		{"void", "technic:mithril_chest", "main"}, 
 
 		{"top", "technic:mithril_protected_chest", "main"}, 
 		{"bottom", "technic:mithril_protected_chest", "main"},
